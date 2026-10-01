@@ -1,5 +1,7 @@
 # Python Security Toolkit
 
+[![Python Security Toolkit CI](https://github.com/EmilAlizada/python-security-toolkit/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/EmilAlizada/python-security-toolkit/actions/workflows/ci.yml)
+
 A compact defensive-security toolkit written in Python to demonstrate **secure automation, file-integrity monitoring, HTTP security review, IOC extraction, log analysis, testing, and CLI engineering**.
 
 > Portfolio / learning project. The tools are intentionally narrow, auditable, and designed for systems and data you own or are authorized to assess.
