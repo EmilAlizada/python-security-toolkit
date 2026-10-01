@@ -4,7 +4,7 @@ import json
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 from .hashing import hash_file
 
@@ -54,7 +54,11 @@ def create_manifest(root: Path, output: Path) -> dict[str, Any]:
 
 
 def load_manifest(path: Path) -> dict[str, Any]:
-    data = json.loads(path.read_text(encoding="utf-8"))
+    raw: object = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError("Integrity manifest must be a JSON object")
+
+    data = cast(dict[str, Any], raw)
     if data.get("version") != 1 or data.get("algorithm") != "sha256":
         raise ValueError("Unsupported integrity manifest format")
     if not isinstance(data.get("files"), dict):
