@@ -218,7 +218,7 @@ Use the network-related functionality only against systems you own or are explic
 - [Secure Django API](https://github.com/EmilAlizada/secure-django-api)
 - [Kubernetes Security Lab](https://github.com/EmilAlizada/kubernetes-security-lab)
 
-[GitHub profile](https://github.com/EmilAlizada)
+[Portfolio website](https://emilalizada.github.io/) · [GitHub profile](https://github.com/EmilAlizada)
 
 ## Author
 
