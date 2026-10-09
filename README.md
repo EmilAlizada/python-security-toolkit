@@ -212,6 +212,14 @@ Use the network-related functionality only against systems you own or are explic
 - [ ] package release workflow
 - [ ] SBOM generation for releases
 
+## Explore the portfolio
+
+- [DevSecOps Pipeline](https://github.com/EmilAlizada/devsecops-pipeline)
+- [Secure Django API](https://github.com/EmilAlizada/secure-django-api)
+- [Kubernetes Security Lab](https://github.com/EmilAlizada/kubernetes-security-lab)
+
+[GitHub profile](https://github.com/EmilAlizada)
+
 ## Author
 
 **Emil Alizada**  
